@@ -2,6 +2,8 @@
 
 **Team: Gradient Descenders** — Dharunesh A & Valliappan.L
 
+**Repository:** https://github.com/Dharunesh-official/Track1-GradientDescenders
+
 Predict whether a machine fails, from 5 sensor readings and its `Type`.
 
 ---
@@ -46,14 +48,16 @@ Reasoning, figures and validation: **[`Methodology_Track1.pdf`](Methodology_Trac
 Full sequence, starting from nothing. Copy the whole block:
 
 ```bash
-git clone https://github.com/<your-username>/Track1-GradientDescenders.git
+git clone https://github.com/Dharunesh-official/Track1-GradientDescenders.git
 cd Track1-GradientDescenders
 pip install -r requirements.txt
 python verify.py
 ```
 
-Replace `<your-username>` with your GitHub username. On Windows, use **Command Prompt** or
-**PowerShell** — the commands are identical, just type each one on its own line.
+On Windows, use **Command Prompt** or **PowerShell** — the commands are identical, just type each
+one on its own line.
+
+Already got the files another way? Skip the `git clone` and `cd`, and start at `pip install`.
 
 `verify.py` runs the notebook and **prints the results** (PR-AUC, F1, precision, recall, confusion
 matrix, model ranking, overfitting checks), so you can confirm them without opening anything. It
